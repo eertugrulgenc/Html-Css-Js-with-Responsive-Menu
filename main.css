@@ -1,0 +1,96 @@
+*{
+    font-family: 'Roboto', sans-serif;    
+}
+
+.main,.main1,.main2,.main3,.main4{
+    min-width: 100%;
+    float: right;
+    min-height: 88.5vh;
+    margin-top: -88.510748vh;
+}
+.main1{
+    background-color: #BCAAA4;
+}
+.main2{
+    background-color: #B3E5FC;
+}
+.main3{
+    background-color: #C5CAE9;
+}
+.main4{
+    background-color: #CFD8DC;
+}
+nav{
+    height: 75px;
+ 
+}
+.mark1{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+}
+.mark2,.last1,.last2{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    display: none;
+}
+
+.A-menu{
+   width: 22.5%;
+   display: inline-block;
+   border: 1px solid rgb(192, 190, 190);
+   background-color: #CFD8DC;
+   min-height: 100vh;
+}
+.Bnav{
+    width: 77.5%;
+    float: right;
+}
+.item{
+    margin-top: 5%;
+    margin-left: 30%;
+}
+.item2{
+    margin-top: 10px;
+   margin-left: 40%;
+}
+
+.itemms{
+    box-sizing: border-box;
+    justify-content: space-around;
+    height: 75px;
+}
+h2{
+   text-align: center;
+   padding-top: 10px;
+   color: grey;
+  
+}
+.baslık{
+    background-color: #EEEEEE;
+}
+.bölüm{
+    margin-left: 10px;
+}
+@media screen and (max-width: 600px){
+    .A-menu{
+        display: none;
+    }
+    .Bnav{
+        width: 100%;
+    }
+    .mark1{
+        display: none; 
+    }
+    .last1{
+        display: inline;
+    }
+   
+}
+
+
+
+
